@@ -34,7 +34,7 @@ body {
     color: #F9FAF8;
 }
 
-.logo-text {
+.logo-text, .quote-author {
     font-size: 24px;
 }
 
