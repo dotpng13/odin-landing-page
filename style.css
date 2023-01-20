@@ -26,7 +26,7 @@ body {
     padding: 100px 200px;
 }
 
-.logo-text, .hero-main, .info-header {
+.logo-text, .hero-main, .info-header, .quote-author {
     font-weight: 900;
 }
 
@@ -57,20 +57,32 @@ body {
     padding: 100px;
 }
 
+.info-header, em {
+    font-size: 36px;
+}
+
 .info-header {
     margin: 32px 0;
-    font-size: 36px;
 }
 
 .info-container {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 50px;
     margin-bottom: 100px;
 }
 
 .info-text {
     max-width: 170px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 300px;
+}
+
+.quote-author {
+    text-align: right;
 }
 
 ul {
@@ -91,7 +103,7 @@ button {
     border-radius: 6px;
     background-color: #3882F6;
     margin: 8px 0;
-    padding: 6px 32px;
+    padding: 6px 30px;
 }
 
 img {
