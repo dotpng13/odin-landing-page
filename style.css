@@ -8,7 +8,7 @@ body {
     color: #1F2937;
 }
 
-.header, .hero{
+.header, .hero {
     background-color: #1F2937;
     color: #E5E7EB;
 }
@@ -26,15 +26,15 @@ body {
     padding: 100px 200px;
 }
 
-.logo-text, .hero-main, .info-header, .quote-author {
+.logo-text, .hero-main, .info-header, .quote-author, .call-header {
     font-weight: 900;
 }
 
-.logo-text, .hero-main, button {
+.logo-text, .hero-main, .call, button {
     color: #F9FAF8;
 }
 
-.logo-text, .quote-author {
+.logo-text, .quote-author, .call-header {
     font-size: 24px;
 }
 
@@ -85,6 +85,22 @@ body {
     text-align: right;
 }
 
+.call, button {
+    background-color: #3882F6;
+    border-radius: 6px;
+}
+
+.call {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 200px;
+    padding: 40px 100px;
+}
+
+.call button {
+    border: 2px solid #F9FAF8;
+}
+
 ul {
     display: flex;
     list-style: none;
@@ -101,7 +117,6 @@ a {
 button {
     border: none;
     border-radius: 6px;
-    background-color: #3882F6;
     margin: 8px 0;
     padding: 6px 30px;
 }
